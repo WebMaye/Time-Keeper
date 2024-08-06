@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Time Keeper</title>
+    <meta name="title" content="Time Keeper">
+    <meta name="description" content="Never miss a meeting across time zones.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/WebMaye/Time-Keeper">
+    <meta property="og:title" content="Time Keeper">
+    <meta property="og:description" content="Never miss a meeting across time zones.">
+    <meta property="og:image" content="https://res.cloudinary.com/webmaye/image/upload/v1721038925/TK_OG.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://github.com/WebMaye/Time-Keeper">
+    <meta property="twitter:title" content="Time Keeper">
+    <meta property="twitter:description" content="Never miss a meeting across time zones.">
+    <meta property="twitter:image" content="https://res.cloudinary.com/webmaye/image/upload/v1721038925/TK_OG.png">
+
+    <!-- Favicon -->
+    <link rel="icon" href="icons/icon16.svg" type="image/svg+xml">
+    <!-- Fallback favicons -->
+    <link rel="icon" href="icons/icon32.png" sizes="32x32">
+    <link rel="icon" href="/icons/icon16.png" sizes="16x16">
+    <link rel="apple-touch-icon" href="icons/icon16.svg">
+
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <div>
+        <h1>Time Keeper</h1>
+    </div> -->
+    <div id="user-clock">
+        <h2 id="user-time"></h2>
+        <p id="user-location"></p>
+        <p id="user-date"></p>
+        <p id="user-timezone"></p>
+    </div>
+    <div id="search-container">
+        <select id="country-dropdown">
+            <option value="">Select a country/timezone...</option>
+        </select>
+        <button id="search-button">Add Timezone</button>
+    </div>
+    <div id="world-clocks"></div>
+    <script src="script.js"></script>
+</body>
+</html>
